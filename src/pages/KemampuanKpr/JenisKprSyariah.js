@@ -3,9 +3,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCircleQuestion} from '@fortawesome/free-regular-svg-icons'
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import Tooltip from 'react-bootstrap/Tooltip';
-import Form from 'react-bootstrap/Form';
-import InputGroup from 'react-bootstrap/InputGroup';
-import Button from 'react-bootstrap/Button';
 import "./index.css"
 
 const JenisKprSyariah = ({ jenisKpr, setJenisKpr, setMarginTahunan, marginTahunan }) => {

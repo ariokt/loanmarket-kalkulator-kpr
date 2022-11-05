@@ -14,6 +14,8 @@ const CobaRange = () => {
     const [penghasilan, setPenghasilan] = useState('');
     const [danaKpr, setDanaKpr] = useState('');
     const [cicilanLain, setCicilanLain] = useState('');
+    console.log(cicilanLain);
+    
     const [lamaKpr, setLamaKpr] = useState('20');
     const [persenPenghasilan, setPersenPenghasilan] = useState(30);
     const [jenisPerhitungan, setJenisPerhitungan] = useState('PerhitunganSederhana');

@@ -1,10 +1,6 @@
 import React, { useState } from "react";
-import Form from 'react-bootstrap/Form';
-import Button from 'react-bootstrap/Button';
-import InputGroup from 'react-bootstrap/InputGroup';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronDown, faChevronUp } from '@fortawesome/free-solid-svg-icons';
-import { faCircleQuestion} from '@fortawesome/free-regular-svg-icons';
 import "./index.css"
 import PopupBank from "./PopupBank";
 import HasilPerhitungan from "./HasilPerhitungan";
