@@ -1,0 +1,95 @@
+.popup-bank__background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 200;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: row;
+}
+
+.popup-bank {
+    display: flex;
+    flex-direction: column;
+    width: 480px;
+    height: fit-content;
+    padding: 1.5rem 0 0 0;
+    margin: auto;
+    background-color: white;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+@media only screen and (max-width: 768px) {
+    .popup-bank {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .popup-bank {
+        width: 100%;
+    }
+}
+
+.popup-bank > div:nth-child(1) {
+    padding: 0 1rem 1.5rem 1rem;
+}
+
+.popup-bank p {
+    margin: 0;
+}
+
+.popup-bank__button {
+    background: rgb(243, 247, 250);
+    text-align: center;
+    border-radius: 8px;
+}
+
+.kpr-biasa #dropdown-basic-button {
+    width: 100% !important;
+    background-color: white;
+    color: #024269;
+    border-color: #024269 !important;
+}
+
+.button--pilih-bank > .dropdown-menu {
+    width: 100%;
+}
+
+.pilih-program {
+    padding: 1.5rem 1rem;
+    background: rgb(243, 247, 250);
+    border-radius: 0 0 8px 8px;
+}
+
+.pilih-program p {
+    margin-bottom: 1rem;
+}
+
+.pilih-program button {
+    width: 100%;
+}
+
+.pilih-program > div {
+    height: 200px;
+    overflow-y: scroll;
+    padding-right: 20px;
+}
+
+.pilih-program__option {
+    background-color: white;
+    align-items: center;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+}
+
+.pilih-program__option p {
+    margin: 0;
+}
+
+.pilih-program__radio {
+    margin-top: 0;
+}

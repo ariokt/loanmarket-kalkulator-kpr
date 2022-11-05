@@ -1,0 +1,71 @@
+.hasil-perhitungan h2 {
+    font-size: 1.125rem;
+    margin: 0;
+}
+
+.hasil-perhitungan__question {
+    background: rgb(243, 247, 250);
+    border: none;
+}
+
+.hasil-perhitungan__content {
+    background-color: rgb(243, 247, 250);
+    border-radius: 8px;
+}
+
+.hasil-perhitungan__content div:nth-child(1) {
+    color: rgb(134, 141, 154);
+}
+
+.hasil-perhitungan__judul-content {
+    font-size: 14px;
+    margin: 0;
+    color: rgb(134, 141, 154);
+}
+
+.hasil-perhitungan__content-result {
+    color: #2951a3;
+}
+
+.hasil-perhitungan__content-result p {
+    font-size: 12px;
+}
+
+.hasil-perhitungan__content-result span {
+    font-size: 24px;
+}
+
+.persyaratan-uang-muka {
+    border-radius: 8px;
+    background-color: #1cabe6;
+    color: white;
+}
+
+.persyaratan-uang-muka > div:nth-child(2) {
+    border-radius: 8px;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.hasil-perhitungan__berdasarkan {
+    border-bottom: 1px solid #e5e7eb;
+    border-radius: 8px;
+}
+
+.hasil-perhitungan__berdasarkan p {
+    font-size: 14px;
+    margin: 0;
+    color: rgb(134, 141, 154);
+}
+
+.hasil-perhitungan__disclaimer {
+    font-size: 14px;
+}
+
+.custom-tooltip p {
+    margin: 0;
+}
+
+.custom-tooltip li {
+    list-style-position: outside;
+}
+
