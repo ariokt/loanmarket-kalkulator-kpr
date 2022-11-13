@@ -43,6 +43,12 @@ const HasilPerhitungan = () => {
         </Tooltip>
     );
 
+    const PumTooltip = (props) => (
+        <Tooltip id="button-tooltip" {...props} className="custom-tooltip">
+          Jumlah uang muka yang harus disiapkan biasanya 20% dari harga properti
+        </Tooltip>
+    );
+
     return (
         <div className="hasil-perhitungan d-flex flex-column pt-4 pe-l-5 w-100">
             <h2>Hasil Perhitungan</h2>
@@ -122,7 +128,7 @@ const HasilPerhitungan = () => {
                         <OverlayTrigger
                             placement="top"
                             delay={{ show: 250, hide: 400 }}
-                            overlay={HpmTooltip}
+                            overlay={PumTooltip}
                             >
                             <span><button className="hasil-perhitungan__question" disabled style={{ pointerEvents: 'none' }}><FontAwesomeIcon icon={faCircleQuestion} /></button></span>
                         </OverlayTrigger>
