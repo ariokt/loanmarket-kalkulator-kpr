@@ -101,7 +101,7 @@ const CobaRange = () => {
                                 />
                         </div>
                     </div>
-                    <div className="mb-3 input-group">
+                    <div className="mb-3 input-group d-flex flex-column">
                         <label className="form-label">Apakah ada cicilan bulanan lainnya saat ini?</label>
                         <div className="d-flex gap-3">
                             <span className="profile-finansial__cicilan-lain"><input type="radio" value="Tidak Ada" name="gender" onChange={e => setCicilanLain(e.target.value)}/> Tidak Ada</span>
@@ -127,8 +127,8 @@ const CobaRange = () => {
                     </div>
                     <div className="mb-3 input-group">
                         <label className="form-label">Berapa persen penghasilan yang akan kamu siapkan untuk angsuran KPR per bulan?</label>
-                        <div className="d-flex flex-column flex-xl-row gap-2">
-                            <div className="profile-finansial__persen-penghasilan mb-2 input-group">
+                        <div className="d-flex flex-column flex-xl-row gap-2 w-100">
+                            <div className="mb-2 input-group input-persen-width">
                                 <input
                                 placeholder={persenPenghasilan}
                                 value={persenPenghasilan}

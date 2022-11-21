@@ -128,10 +128,6 @@
     gap: 0.5rem;
 }
 
-.profile-finansial__persen-penghasilan {
-    width: 160px;
-}
-
 .profile-finansial__updown {
     color: #2951a3;
     border: none;
@@ -176,8 +172,24 @@
     font-size: 14px;
 }
 
+.jenis-kpr__content button {
+    background: white;
+    border: none;
+}
+
+.custom-tooltip .tooltip-inner {
+    text-align: left!important;
+    opacity: 95%;
+}
+
 .input-persen-width {
     width: 35%;
+}
+
+@media only screen and (min-width: 1200px) {
+    .input-persen-width {
+        width: 50%;
+    }
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 768px) {
@@ -201,15 +213,3 @@
         width: 40%;
     }
 }
-
-
-
-.jenis-kpr__content button {
-    background: white;
-    border: none;
-}
-
-.custom-tooltip .tooltip-inner {
-    text-align: left!important;
-    opacity: 95%;
-  }

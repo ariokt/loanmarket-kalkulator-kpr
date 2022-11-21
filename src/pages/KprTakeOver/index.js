@@ -61,7 +61,7 @@ const KprTakeOver = () => {
                     <div className="pt-4">
                         <h2 className="mb-4">KPR Saat ini</h2>
                         <div className="mb-3 d-flex flex-column input-group">
-                            <div className="d-flex gap-2 align-items-center">
+                            <div className="d-flex align-items-center">
                                 <label className="d-flex align-items-center gap-2 form-label">
                                     <p>Sisa Pinjaman Pokok</p>
                                     {/* <FontAwesomeIcon icon={faCircleQuestion} /> */}
@@ -80,9 +80,9 @@ const KprTakeOver = () => {
                             </div> 
                         </div>
                         <div className="mb-3 d-flex input-group">
-                            <div className="d-flex flex-column flex-xl-row justify-content-between w-100">
-                                <p>Sisa Jangka Waktu Cicilan</p>
-                                <div className="mb-2 input-group">
+                            <div className="d-flex flex-column justify-content-between w-100">
+                                <p className="mb-2">Sisa Jangka Waktu Cicilan</p>
+                                <div className="mb-2 input-tahun-width input-group">
                                     <input
                                     placeholder="1"
                                     value={sisaWaktu}
@@ -100,8 +100,8 @@ const KprTakeOver = () => {
                             </div>
                         </div>
                         <div className="mb-3 d-flex input-group">
-                            <div className="d-flex flex-column flex-xl-row justify-content-between w-100">
-                                <p>Sisa Bunga KPR Saat ini</p>
+                            <div className="d-flex flex-column justify-content-between w-100">
+                                <p className="mb-2">Sisa Bunga KPR Saat ini</p>
                                 <div className="mb-2 input-persen-width input-group">
                                     <input
                                     placeholder="12"
@@ -132,9 +132,9 @@ const KprTakeOver = () => {
                             <select className="w-100 form-select" style={{borderRadius:"8px"}} />}
                         </div>
                         <div className="mb-3 input-group">
-                            <div className="d-flex flex-column flex-xl-row justify-content-between w-100">
-                                <p>Jangka Waktu KPR Take Over</p>
-                                <div className="mb-2 input-group">
+                            <div className="d-flex flex-column justify-content-between w-100">
+                                <p className="mb-2">Jangka Waktu KPR Take Over</p>
+                                <div className="mb-2 input-persen-width input-group">
                                     <input
                                     placeholder="1"
                                     value={jangkaWaktuK}
@@ -162,8 +162,8 @@ const KprTakeOver = () => {
                             : 
                             <div className="d-flex flex-column">
                                 <div className="mb-3 input-group">
-                                    <div className="d-flex flex-column flex-xl-row justify-content-between w-100">
-                                        <p>Suku Bunga Floating</p>
+                                    <div className="d-flex flex-column justify-content-between w-100">
+                                        <p className="mb-2">Suku Bunga Floating</p>
                                         <div className="mb-2 input-persen-width input-group">
                                             <input
                                             placeholder="1"

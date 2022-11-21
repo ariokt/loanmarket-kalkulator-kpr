@@ -38,7 +38,7 @@ const JenisKprBiasa = ({ jenisKpr, setJenisKpr, setSukuBungaX, setMasaKredit, se
             </div>
             <div className="mb-3 input-group">
                 <div className="d-flex flex-column flex-md-column flex-xl-row justify-content-between w-100">
-                    <div className="jenis-kpr__content d-flex align-items-center gap-2">
+                    <div className="jenis-kpr__content d-flex align-items-center">
                         <p>Suku Bunga Fix</p>
                         <OverlayTrigger
                             placement="top"
@@ -67,7 +67,7 @@ const JenisKprBiasa = ({ jenisKpr, setJenisKpr, setSukuBungaX, setMasaKredit, se
             </div>
             <div className="mb-3 input-group">
                 <div className="d-flex flex-column flex-md-column flex-xl-row justify-content-between w-100">
-                    <div className="jenis-kpr__content d-flex align-items-center gap-2">
+                    <div className="jenis-kpr__content d-flex align-items-center">
                         <p>Masa Kredit Fix</p>
                         <OverlayTrigger
                             placement="top"
@@ -95,8 +95,8 @@ const JenisKprBiasa = ({ jenisKpr, setJenisKpr, setSukuBungaX, setMasaKredit, se
                 </div>
             </div>
             <div className="mb-3 input-group">
-                <div className="d-flex flex-column flex-md-column flex-xl-row justify-content-between w-100">
-                    <div className="jenis-kpr__content d-flex align-items-center gap-2">
+                <div className="d-flex flex-column flex-xxl-row justify-content-between w-100">
+                    <div className="jenis-kpr__content d-flex align-items-center">
                         <p>Suku Bunga Floating</p>
                         <OverlayTrigger
                             placement="top"

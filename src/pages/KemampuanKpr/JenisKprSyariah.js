@@ -26,7 +26,7 @@ const JenisKprSyariah = ({ jenisKpr, setJenisKpr, setMarginTahunan, marginTahuna
             </div>
             <div className="mb-3 input-group">
                 <div className="d-flex flex-column flex-md-column flex-xl-row justify-content-between w-100">
-                    <div className="jenis-kpr__content d-flex align-items-center gap-2">
+                    <div className="jenis-kpr__content d-flex align-items-center">
                         <p>Margin/tahun</p>
                         <OverlayTrigger
                             placement="top"
