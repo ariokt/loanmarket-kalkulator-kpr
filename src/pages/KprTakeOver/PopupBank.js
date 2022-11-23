@@ -26,7 +26,8 @@ const PopupBank = ({ setPilihProgram, setSelectedOption }) => {
     }
 
     return (
-        <div className="popup-bank__background">
+        <div>
+            <div className="popup-bank__background" onClick={() => setPilihProgram(false)}></div>
             <div className="popup-bank">
                 <div>
                     <div className="d-flex align-items-center justify-content-between">
